@@ -5,7 +5,7 @@ import google.generativeai as genai
  
 #from apikey import api_key1
 # set the page configuration
-
+api_key1 = os.getenv('api_key1')
 st.set_page_config(page_title="VitalImage Analytics", page_icon=":robot:")
 
 # config gemini api key
