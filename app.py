@@ -3,7 +3,7 @@ import streamlit as st
 from pathlib import Path
 import google.generativeai as genai
  
-from apikey import api_key1
+#from apikey import api_key1
 # set the page configuration
 
 st.set_page_config(page_title="VitalImage Analytics", page_icon=":robot:")
